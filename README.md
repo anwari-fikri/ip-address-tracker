@@ -40,27 +40,23 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+## 1. Setting up secrets for github pages
 
-To see how you can add code snippets, see below:
+I just learned that you can put your secrets in the settings of your repository. I use this feature to hide my API key for ipify.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I was just about to move this project to use Vercel & NextJS because I did a similar project regarding hiding my API key and luckily I don't have to do that.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+## 2. Learn new React Hooks
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+I get to use some React Hooks that I have not used before.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I only used **useState** and **useEffect** hooks in my previous projects and in this project I get to learn to use **useCallback** and **useMemo** which I haven't fully understood 100% but I get the gist of when to use them.
+
+## 3. Learn new libraries
+
+Using external libraries is always an exciting experience as I get to read the libraries documentation and apply it to my project.
+
+This time I am using leaflet for the map, specifically react-leaflet. It is fairly easy to use and the example in the documentation really helped me a lot.
 
 ### Useful resources
 
