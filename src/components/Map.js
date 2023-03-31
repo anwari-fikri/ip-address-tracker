@@ -170,7 +170,7 @@ export default function Map() {
   );
   return (
     <>
-      <div className="h-max-[100vh]">
+      <main className="h-max-[100vh]">
         <img
           src={heroImageMobile}
           alt="hero mobile"
@@ -183,7 +183,7 @@ export default function Map() {
         />
         {displayMap}
         {map ? <DisplayPosition map={map} setCenter={setCenter} /> : null}
-      </div>
+      </main>
     </>
   );
 }
